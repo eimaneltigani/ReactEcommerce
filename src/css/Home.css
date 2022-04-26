@@ -1,0 +1,50 @@
+:root {
+    --main-background-color: #F9FBF2;
+    --main-top-background-color: #FBFEF9;
+    --main-accent-color: #FB8F67;
+    --title-color: #1E2019;
+}
+
+.product-list {
+    background-color: #FAEBD7;
+    padding: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+}
+
+.card {
+    min-height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 0.5em 1em -0.125em;
+    text-align: center;
+    border-radius: .25rem;
+}
+
+.card-title {
+    color: var(--main-accent-color);
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-image {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.more-button {
+    background-color: #f9ca24;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    font: "Poppins";
+}
+
+.more-button:hover {
+    box-shadow: 0px 5px 5px #b2bec3;
+    color: #30336b;
+}
